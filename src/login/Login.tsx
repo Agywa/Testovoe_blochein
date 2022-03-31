@@ -63,7 +63,7 @@ export const Login = () => {
                                 <div style={{color: "red"}}>{formik.errors.email}</div> : null}
                             <Button
                                 type={'submit'} variant={'contained'} color={'primary'}>
-                                Login
+                                Get public key
                             </Button>
                         </FormGroup>
                     </FormControl>
